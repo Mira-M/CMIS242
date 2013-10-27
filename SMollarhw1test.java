@@ -12,6 +12,7 @@ public class SMollarhw1test {
 
 	public static void main(String[] args) {
 		
+		// Creates an instance of Deposit Class for a deposit for October 20th
 		Deposit october20 = new Deposit("Mira", 32.42, 345.78);
 		
 		System.out.println("The deposit for " + october20.getAuditor() + " is: \n" 
@@ -32,6 +33,7 @@ public class SMollarhw1test {
 				+ "Register 2 Total: $" + october21.getRegTwo() + ".\n"
 				+ "Total Deposit: $" + october21.getBankDeposit() + ".\n");
 		
+		// Creates an instance of Deposit Class for a deposit for October 22nd
 		Deposit october22 = new Deposit ("Rebecca", 44.5, 789.45);
 		
 		System.out.println("The deposit for " + october22.getAuditor() + " is: \n"

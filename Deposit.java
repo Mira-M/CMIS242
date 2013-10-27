@@ -1,5 +1,13 @@
 package com.miramollar.hw1;
 
+/*
+ * CMIS 242
+ * S.Mollar
+ * Due 10/27/13
+ * Professor V. Gubanov
+ * 
+ */
+
 public class Deposit {
 	private String auditor;
 	private double regOne;
